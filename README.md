@@ -1,24 +1,54 @@
-# README
+# DB設計
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Usersテーブル
 
-Things you may want to cover:
+|Column|Type|Options|
+|------|----|-------|
+|name|string|null:false, unique:true|
+|email|text|null:false, unique:true|
+|affiliation|text|null:false|
 
-* Ruby version
+### Association
 
-* System dependencies
+- has_many :messages
+- has_many :events
+- has_many :relationships
+- has_many :followings, through: :relationships, source: :follow
+- has_many :reverse_of_relationship, class_name: 'Relationship', foreign_key: follow_id
+- has_many :followers, through: :reverse_of_relationship, source: :user
 
-* Configuration
+## Eventsテーブル
 
-* Database creation
+|Column|Type|Options|
+|------|----|-------|
+|title|string|null:false|
+|discription|text|null:false|
+|image|text||
+|place|string|null:false|
+|date|string|null:false|
+|user_id|reference|foreign_key:true|
 
-* Database initialization
+### Association
+- belong_to :user
+- has_many :messages
 
-* How to run the test suite
+## Relationshipテーブル
+|Column|Type|Options|
+|------|----|-------|
+|user_id|reference|foreign_key:true|
+|follow_id|reference|foreign_key:true|
 
-* Services (job queues, cache servers, search engines, etc.)
+### Association
+- belong_to :user
 
-* Deployment instructions
+## Messagesテーブル
 
-* ...
+|Column|Type|Options|
+|------|----|-------|
+|content|text|null:false, unique:true|
+|user_id|reference|foreign_key:true|
+|event_id|reference|foreign_key|
+
+### Association
+- belongs_to :user
+- belongs_to :event

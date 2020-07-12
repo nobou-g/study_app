@@ -1,0 +1,46 @@
+.header{
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  &__left{
+    display: flex;
+    padding-left: 190px;
+    .header-icon{
+      font-size: 45px;
+      margin-top: 50px;
+    }
+    .header-title{
+      font-size: 50px;
+      font-weight: bold;
+      line-height: 140px;
+      text-decoration: none;
+      color: black;
+    }
+  }
+  &__right{
+    padding-left: 30px;
+    line-height: 160px;
+    .user_resistration, .login, .logout, .mypage-btn{
+      text-decoration: none;
+      color: #333;
+      padding-left: 5px;
+    }
+  }
+}
+
+ul.nav{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  li{
+    width: calc(100%/3);
+    text-align: center;
+    border: 1px solid;
+    a{
+      text-decoration: none;
+      font-size: 30px;
+      padding: 5px;
+      color: #333;
+    }
+  }
+}
