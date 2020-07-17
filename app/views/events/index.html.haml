@@ -1,8 +1,11 @@
 .event-list
-  .event
-    .event_content
-      =image_tag('https://s3.amazonaws.com/StartupStockPhotos/20140808_StartupStockPhotos/95.jpg', width: '100%', height: '200px', class: 'event_image')
-      %h3.event_title Railsを学ぼう！
-      .user_info
-        %p.user_name オオヌキゴウ
-        %button.follow-btn フォローする
+  -@events.each do |event|
+    .event
+      .event_content
+        =image_tag('https://s3.amazonaws.com/StartupStockPhotos/20140808_StartupStockPhotos/95.jpg', width: '100%', height: '150px', class: 'event_image')
+        %h3.event_title
+          =event.title
+        .user_info
+          =link_to "#{event.user.nickname}",user_path(event.user.id), class: 'user_name'             
+          %button.follow-btn フォローする
+        =link_to '', event_path(event), class: 'show_btn'

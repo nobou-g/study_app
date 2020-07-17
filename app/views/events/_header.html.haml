@@ -4,15 +4,15 @@
     =link_to 'Session', root_path, class: 'header-title'
   .header__right
     -if user_signed_in?
-      = link_to 'ログアウト', destroy_user_session_path(), class: 'logout'
-      = link_to 'マイページ', '#', class: 'mypage-btn'
+      = link_to 'ログアウト', destroy_user_session_path, class: 'logout'
+      = link_to 'マイページ', user_path(current_user.id), class: 'mypage-btn'
     -else 
       = link_to '新規登録', new_user_registration_path, class: 'user_resistration'
       = link_to 'ログイン', new_user_session_path, class: 'login'
 %ul.nav
   %li
-    =link_to 'Session List', '#'
+    =link_to 'Session List', root_path
   %li
     =link_to 'Timeline', '#'
   %li
-    =link_to 'New Post', '#'
+    =link_to 'Post On', new_event_path

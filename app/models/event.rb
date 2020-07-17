@@ -5,7 +5,7 @@ class Event < ApplicationRecord
   with_options presence: true do
     validates :title
     validates :discription
-    # validates :image
+    validates :image
     validates :place
     validates :date
   end
