@@ -18,6 +18,9 @@
         %td.left 開催場所
         %td.right 
           = "#{@event.place}"
-    %button.chat_btn チャットする
+    -if user_signed_in?
+      =link_to 'チャットする', event_messages_path(@event), class: 'chat_btn'
+    - else
+      =link_to 'チャットする', new_user_registration_path, class: 'chat_btn'
     
   

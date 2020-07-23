@@ -1,0 +1,45 @@
+.side_bar
+  .side_bar_header
+    -if user_signed_in?
+      .user_info_top
+        =link_to "#{current_user.nickname}", user_path(current_user), class: 'user_name'
+        =link_to '#', class: 'top-icon' do
+          =fa_icon 'cog'
+      .user_info_bottom
+        %label フォロー
+        .followings
+          = "#{current_user.followings.count}"
+        %label フォロワー
+        .followers
+          = "#{current_user.followers.count}"
+    - else
+      %p.alert ユーザー登録をしてください
+  .side_bar_main
+    .title
+      =fa_icon 'circle', class: 'circle_icon'
+      %label チャット中の相手
+    -if user_signed_in?
+      .chat_list
+        -event_messages.each do |message|
+          -unless current_user == message.event.user
+            .chat-info
+              .host_name
+                =fa_icon 'caret-right', class: 'triangle_icon'
+                %label 
+                  ="#{message.event.user.nickname}"
+              .event_title
+                ="#{message.event.title.truncate(18)}"
+              =link_to '', event_messages_path(message.event), class: 'chat_btn'
+    .title.title2
+      =fa_icon 'circle', class: 'circle_icon'
+      %label 主催するイベント
+    -if user_signed_in?
+      .event_list
+        -current_user.events.reverse().each do |event|
+          .event
+            =fa_icon 'caret-right', class: 'triangle_icon'
+            %label 
+              ="#{event.title.truncate(18)}"
+            =link_to '', event_messages_path(event), class: 'show_btn'
+
+    

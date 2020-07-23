@@ -1,6 +1,7 @@
 .show_event_wrapper{
   width: 800px;
   margin: 0 auto;
+  margin-top: 50px;
   .show_event{
     width: 560px;
     margin: 0 auto;
@@ -8,10 +9,10 @@
 
     }
     .event_title{
-
+      margin-top: 30px;
     }
     .event_discription{
-
+      margin: 30px 0;
     }
     table.event_info{
       margin-left: 25px;
@@ -41,16 +42,17 @@
       }
     }
     .chat_btn{
+      text-decoration: none;
+      display: block;
       padding: 20px;
       width: 400px;
       border-radius: 40px;
-      border: 1px solid #ffa201;
-      background-color: #ffa201;
+      background-color: #FCC800;
       color: white;
       font-weight: bold;
       font-size: 15px;
       box-shadow: none;
-      margin: 40px 0 0 100px;
+      margin: 40px 0 20px 100px;
       text-align: center;
     }
   }

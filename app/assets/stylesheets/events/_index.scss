@@ -1,42 +1,84 @@
-.event-list{
-  width: 650px;
-  margin: 0 auto;
+*{
+  margin:0;
+  padding:0;
+}
+
+.wrapper_content{
   display: flex;
+}
+
+.event-list{
+  width: 1100px;
+  height: 95vh;
+  height: 700px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  align-items: baseline;
   flex-wrap: wrap;
+  overflow: scroll;
   .event{
     position: relative;
     z-index: 1;
-    width: 300px;
-    border: 3px solid black;
+    width: 450px;
+    border: 2px solid black;
     border-radius: 10px;
     display: flex;
     justify-content: center;
-    margin: 15px 0 0 15px ;
+    margin: 50px 0 0 50px ;
     &_content{
       .event_image{
-        
+        z-index: 0;
       }
       .event_title{
-        padding-left: 15px;
+        padding: 15px 0 0 10px;
+        color: black;
       }
       .user_info{
         display: flex;
-        justify-content: space-around;
-        padding-bottom: 10px;
-        .user_name{
-          display: block;
-          text-decoration: none;
-          color: rgb(170, 170, 170);
-          z-index: 3;
+        padding: 10px 10px 10px 15px;
+        .event_info{
+          .user_name{
+            text-decoration: none;
+            color: rgb(170, 170, 170);
+            z-index: 3;
+          }
         }
         .follow-btn{
-          padding: 10px;
-          width: 200px;
-          border: 1px solid #ffa201;
-          background-color: #ffa201;
+          margin: 15px 0 0 80px;
+          width: 180px;
+          border: 2px solid #FCC800;
+          background-color: #FCC800;
           border-radius: 30px;
-          color: #fff;
+          color: white;
+          font-weight: bold;
           z-index: 3;
+          padding: 15px;
+          display: block;
+        }
+        .unfollow-btn{
+          margin: 15px 0 0 80px;
+          width: 180px;
+          border: 2px solid #fff;
+          background-color: rgb(170, 170, 170);
+          border-radius: 30px;
+          color: white;
+          font-weight: bold;
+          z-index: 3;
+          padding: 15px;
+          display: block;
+        }
+        .host_mark{
+          margin: 15px 0 0 80px;
+          width: 180px;
+          border: 2px solid rgb(234, 53, 45);
+          background-color: rgb(234, 53, 45);
+          border-radius: 30px;
+          color: white;
+          font-weight: bold;
+          z-index: 3;
+          padding: 15px;
+          display: block;
         }
       }
       .show_btn{
@@ -49,4 +91,8 @@
       }
     }
   }
+}
+
+.new_relationship .edit_relationship{
+  z-index: 3;
 }

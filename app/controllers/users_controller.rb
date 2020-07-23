@@ -1,6 +1,8 @@
 class UsersController < ApplicationController
   before_action :set_params, only: :show
   def show
+    events= @user.events
+    @events= events.reverse()
   end
 
   private

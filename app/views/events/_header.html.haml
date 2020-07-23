@@ -4,7 +4,7 @@
     =link_to 'Session', root_path, class: 'header-title'
   .header__right
     -if user_signed_in?
-      = link_to 'ログアウト', destroy_user_session_path, class: 'logout'
+      = link_to 'ログアウト', destroy_user_session_path, method: :delete, class: 'logout'
       = link_to 'マイページ', user_path(current_user.id), class: 'mypage-btn'
     -else 
       = link_to '新規登録', new_user_registration_path, class: 'user_resistration'
@@ -13,6 +13,12 @@
   %li
     =link_to 'Session List', root_path
   %li
-    =link_to 'Timeline', '#'
+    -if user_signed_in?
+      =link_to 'Timeline', timeline_events_path
+    - else
+      =link_to 'Timeline', new_user_registration_path
   %li
-    =link_to 'Post On', new_event_path
+    -if user_signed_in?
+      =link_to 'Post On', new_event_path
+    - else
+      =link_to 'Post On', new_user_registration_path

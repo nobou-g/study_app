@@ -1,2 +1,19 @@
-=@user.nickname
-=@user.email
+.user_page
+  .user_page-top
+    .user_info_top
+      .user_name
+        =fa_icon 'circle', class: 'circle_icon'
+        %label
+          ="#{@user.nickname}"
+      =render 'relationships/follow_btn', user: @user
+    .user_info_bottom
+      %label フォロー
+      .followings
+        = "#{@user.followings.count}"
+      %label フォロワー
+      .followers
+        = "#{@user.followers.count}"
+  .user_page-bottom
+    %p.heading 主催するイベント
+    =render 'events/event_list', events: @events
+

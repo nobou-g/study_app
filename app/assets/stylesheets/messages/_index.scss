@@ -1,0 +1,85 @@
+.chat_wrapper{
+  width: 650px;
+  margin: 0 auto;
+  margin-top: 50px;
+  .circle_icon{
+    color: #FCC800;
+    font-size: 20px;
+  }
+  .title{
+    font-weight: bold;
+    font-size: 23px;
+    padding-left: 8px;
+  }
+  .event_host{
+    text-align: right;
+    .left{
+
+    }
+    .right{
+
+    }
+  }
+  .chat-main{
+    overflow: scroll;
+    height: 70vh;
+    margin-top: 30px;
+    .message{
+      padding-bottom: 5px;
+      border-bottom: 1px solid black;
+      &_top{
+        display: flex;
+        .user_name{
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 25px;
+        }
+        .send_time{
+          padding-left: 15px;
+          color: rgb(170, 170, 170);
+          font-size: 12px;
+          line-height: 23px;
+        }
+        .host_mark{
+          font-size: 11px;
+          height: 14px;
+          line-height: 14px;
+          background-color: red;
+          color: white;
+          margin: 3px 0 0 5px;
+          border: 1px solid red;
+          border-radius: 5px;
+        }
+      }
+      &_bottom{
+        margin-left: 10px;
+        .content{
+          font-size: 13px;
+        }
+      }
+    }
+  }
+  .chat-bottom{
+    width: 45%;
+    background-color: black;
+    padding: 12px 0;
+    position: fixed;
+    bottom: 0;
+    .text_form{
+      width: 50%;
+      height: 30px;
+      padding-left: 100px;
+      margin-left: 50px;
+      border: 1px solid white;
+      border-radius: 5px;
+    }
+    .send_btn{
+      padding: 13px;
+      color: white;
+      background-color: #FCC800;
+      border: 2px solid #FCC800;
+      border-radius: 8px;
+      margin-left: 20px;
+    }
+  }
+}

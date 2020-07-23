@@ -1,0 +1,46 @@
+@mixin follow_info {
+  .user_info_bottom{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px;
+    label{
+      font-size: 12px;
+      line-height: 22px;
+      padding-right: 15px;
+    }
+    .followings{
+      padding-right: 15px;
+    }
+    .followers{
+    }
+  }
+}
+
+@mixin follow_btn {
+  .follow-btn{
+    // margin: 15px 0 0 80px;
+    width: 180px;
+    border: 2px solid #FCC800;
+    background-color: #FCC800;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    z-index: 3;
+    padding: 15px;
+    display: block;
+    margin-left: 30px;
+  }
+  .unfollow-btn{
+    margin: 15px 0 0 80px;
+    width: 200px;
+    border: 2px solid #fff;
+    background-color: rgb(170, 170, 170);
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    z-index: 3;
+    padding: 15px;
+    display: block;
+  }
+}

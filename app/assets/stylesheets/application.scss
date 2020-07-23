@@ -1,8 +1,11 @@
 @import "font-awesome";
+@import "modules/mixin";
 @import "events/header";
 @import "events/index";
 @import "events/show";
-
+@import "messages/index";
+@import "events/side_bar";
+@import "users/show";
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
