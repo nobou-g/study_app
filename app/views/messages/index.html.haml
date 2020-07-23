@@ -1,0 +1,26 @@
+.chat_wrapper
+  =fa_icon 'circle', class: 'circle_icon'
+  %label.title  
+    ="#{@event.title}"
+  %p.event_host
+    %label.left 主催者 :
+    %label.right
+      ="#{@event.user.nickname}"
+  .chat-main
+    -@messages.each do |message|
+      .message
+        .message_top
+          .user_name
+            ="#{message.user.nickname}"
+          - if @event.user == message.user
+            .host_mark
+              主催者
+          .send_time
+            ="#{message.created_at}"
+        .message_bottom
+          .content
+            ="#{message.content}"
+  .chat-bottom
+    =form_for [@event, @message] do |f|
+      =f.text_field :content, class: 'text_form'
+      =f.submit 'Send', class: 'send_btn'

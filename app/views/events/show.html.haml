@@ -1,0 +1,26 @@
+.show_event_wrapper
+  .show_event
+    =image_tag('https://s3.amazonaws.com/StartupStockPhotos/20140808_StartupStockPhotos/95.jpg', width: '600px', height: '300px', class: 'event_image')
+    %h3.event_title
+      =@event.title
+    %p.event_discription
+      =@event.discription
+    %table.event_info
+      %tr
+        %td.left 主催者
+        %td.right 
+          = link_to "#{@event.user.nickname}", user_path(@event.user.id)
+      %tr
+        %td.left 開催日
+        %td.right 
+          = "#{@event.date}"
+      %tr
+        %td.left 開催場所
+        %td.right 
+          = "#{@event.place}"
+    -if user_signed_in?
+      =link_to 'チャットする', event_messages_path(@event), class: 'chat_btn'
+    - else
+      =link_to 'チャットする', new_user_registration_path, class: 'chat_btn'
+    
+  

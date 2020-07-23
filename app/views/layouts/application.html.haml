@@ -9,4 +9,6 @@
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
     =render 'events/header'
-    = yield
+    .wrapper_content
+      =render 'events/side_bar'
+      = yield

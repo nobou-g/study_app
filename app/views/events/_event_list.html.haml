@@ -1,0 +1,25 @@
+.event-list
+  -events.each do |event|
+    .event
+      .event_content
+        =image_tag('https://s3.amazonaws.com/StartupStockPhotos/20140808_StartupStockPhotos/95.jpg', width: '100%', height: '200vh', class: 'event_image')
+        %h3.event_title
+          =event.title.truncate(24)
+        .user_info
+          .event_info
+            .host
+              %label 主催者 :
+              =link_to "#{event.user.nickname}",user_path(event.user.id), class: 'user_name'
+            .date
+              %label 開催日 :
+              %label.event_date
+                ="#{event.date.truncate(5)}"
+            .place
+              %label 開催場所 :
+              %label.event_place
+                ="#{event.place.truncate(5)}"
+          - if event.user == current_user
+            %button.host_mark 主催者
+          -else
+            =render 'relationships/follow_btn', user: event.user
+          =link_to '', event_path(event), class: 'show_btn'
