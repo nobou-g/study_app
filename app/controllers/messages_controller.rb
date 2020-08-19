@@ -7,11 +7,13 @@ class MessagesController < ApplicationController
 
   def create
     @message= @event.messages.new(message_params)
-    if @message.save!
+    if @message.save
+      respond_to do |format|
+        format.json
+      end
       redirect_to event_messages_path(@event)
     else
       render :index
-      
     end
   end
 

@@ -21,6 +21,6 @@
           .content
             ="#{message.content}"
   .chat-bottom
-    =form_for [@event, @message] do |f|
+    =form_for [@event, @message], remote: true ,format: 'json' do |f|
       =f.text_field :content, class: 'text_form'
       =f.submit 'Send', class: 'send_btn'
