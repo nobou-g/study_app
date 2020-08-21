@@ -1,0 +1,22 @@
+.show_item_wrapper
+  .show_item
+    =image_tag @item.image_url, size: "200x300", class: 'item_image'
+    %p.item_discription
+      =@item.discription
+    %table.item_info
+      %tr
+        %td.left タイトル
+        %td.right 
+          = @item.title
+      %tr
+        %td.left 価格
+        %td.right 
+          %label ¥
+          = @item.price
+      %tr
+        %td.left 出品者
+        %td.right 
+          = @item.user.nickname
+    -if user_signed_in?
+      = form_tag(action: :pay, method: :post) do
+        %script.payjp-button{:src => "https://checkout.pay.jp", :type => "text/javascript" ,"data-text" => "購入する" ,"data-key" => "pk_test_9803a05e60bf76b41efc634f"}

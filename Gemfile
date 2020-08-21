@@ -71,3 +71,4 @@ gem "font-awesome-rails"
 gem 'pry-rails'
 gem 'carrierwave'
 gem 'jquery-rails'
+gem 'payjp'
