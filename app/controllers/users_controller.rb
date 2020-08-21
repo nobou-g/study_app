@@ -3,6 +3,7 @@ class UsersController < ApplicationController
   def show
     events= @user.events
     @events= events.reverse()
+    @items= @user.items.reverse()
   end
 
   private

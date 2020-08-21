@@ -1,0 +1,15 @@
+= form_for @item do |f|
+  .text_field.title
+    %label テーマ
+    =f.text_field :title
+  .text_field.discription
+    %label 詳細内容
+    =f.text_field :discription
+  .image 
+    %label 画像
+    = f.file_field :image
+  .text_field.price
+    %label 価格
+    =f.text_field :price
+    %label 円
+  = f.submit '投稿する'
