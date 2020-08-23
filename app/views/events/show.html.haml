@@ -1,6 +1,6 @@
 .show_event_wrapper
   .show_event
-    =image_tag('https://s3.amazonaws.com/StartupStockPhotos/20140808_StartupStockPhotos/95.jpg', width: '600px', height: '300px', class: 'event_image')
+    =image_tag @event.image_url, width: '600px', height: '300px', class: 'event_image'
     %h3.event_title
       =@event.title
     %p.event_discription
