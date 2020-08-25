@@ -60,7 +60,7 @@ $(function(){
       console.log(buildHTML(message));
       $('.chat-main').append(buildHTML(message));
       $('.text_form').val('');
-      $('.send_btn').prop('disabled', true)
+      $('.send_btn').prop('disabled', false)
       $('.chat-main').animate({ scrollTop: $('.chat-main')[0].scrollHeight});
     })
     .fail(function(){

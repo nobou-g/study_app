@@ -10,6 +10,6 @@
     = f.file_field :image
   .text_field.price
     %label 価格
-    =f.text_field :price
+    =f.text_field :price, class: 'price'
     %label 円
-  = f.submit '投稿する'
+  = f.submit '出品する', class: 'new-btn'

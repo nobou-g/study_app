@@ -1,4 +1,5 @@
-=link_to '出品する', new_item_path
+- if @user == current_user && user_signed_in?
+  =link_to '出品する', new_item_path, class: 'new_item_btn'
 .user_page
   .user_page-top
     .user_info_top
