@@ -23,7 +23,7 @@
 |------|----|-------|
 |title|string|null:false|
 |discription|text|null:false|
-|image|text||
+|image|binary||
 |place|string|null:false|
 |date|string|null:false|
 |user_id|reference|foreign_key:true|
