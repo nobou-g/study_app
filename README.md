@@ -1,4 +1,4 @@
-# アプリ名
+# :bowtie:アプリ名
  Session
 
 
