@@ -1,3 +1,4 @@
+![Seminor開催アプリ](https://gyazo.com/d585673e8a039f3bc6f9a7cdf63ea7c0)
 
 # :ledger:詳しい内容： Qiita
 
@@ -6,6 +7,7 @@
 ・Rails  
 ・Javascript  
 ・jquery  
+・MySQL  
 ・Payjp(クレジットカードのAPI)  
 ・VSCode  
 
