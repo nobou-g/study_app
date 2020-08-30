@@ -1,4 +1,4 @@
-# :bowtie:アプリ名
+# :ledger:アプリ名
  Session
 
 
