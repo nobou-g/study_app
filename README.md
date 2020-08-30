@@ -1,5 +1,15 @@
-# :ledger:アプリ名
- Session
+
+# :ledger:詳しい内容： Qiita
+
+# :ledger:開発環境
+・Ruby
+・Rails
+・Javascript
+・jquery
+・Payjp(クレジットカードのAPI)
+・VSCode
+
+# :ledger:アプリ機能
 
 
 # DB設計
