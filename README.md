@@ -2,12 +2,12 @@
 # :ledger:詳しい内容： Qiita
 
 # :ledger:開発環境
-・Ruby
-・Rails
-・Javascript
-・jquery
-・Payjp(クレジットカードのAPI)
-・VSCode
+・Ruby  
+・Rails  
+・Javascript  
+・jquery  
+・Payjp(クレジットカードのAPI)  
+・VSCode  
 
 # :ledger:アプリ機能
 
