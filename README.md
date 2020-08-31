@@ -1,4 +1,4 @@
-![demo](https://gyazo.com/d585673e8a039f3bc6f9a7cdf63ea7c0)
+![session](gyazo1)
 
 # :ledger:開発環境
 ・Ruby  
