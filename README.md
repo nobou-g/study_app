@@ -1,4 +1,4 @@
-![session](gyazo1)
+![session](https://github.com/nobou-g/study_app/blob/master/gyazo1.jpg)
 
 # :ledger:開発環境
 ・Ruby  
