@@ -11,7 +11,7 @@
 ・VSCode  
 
 # :ledger:アプリ機能
-![session](https://github.com/nobou-g/study_app/blob/master/トップページ紹介.mp)
+![audio_visualizer](https://github.com/nobou-g/study_app/blob/master/トップページ.gif)
 
 
 # DB設計
