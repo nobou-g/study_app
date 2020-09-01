@@ -17,9 +17,6 @@
 </blockquote>
 
 
-
-# :ledger:アプリ概要
-
 # :ledger:開発環境
 ・Ruby  
 ・Rails  
