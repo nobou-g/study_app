@@ -8,7 +8,8 @@
   
 <p>↓以下は具体的な問題点</p>  
 <blockquote><strong>①参加者とのやりとりがメールのため、レスポンスに時間がかかり、それを1人1人相手しなければならない</strong><br>
-<blockquote>ああああ</blockquote>
+<blockquote> →改善点：  
+  この問題を補完するために「チャット機能」に着目した。チャットはメールよりもレスポンスの即時性が見込め、</blockquote>
 </blockquote>
 
 
