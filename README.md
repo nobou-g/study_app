@@ -1,6 +1,16 @@
 ### セミナー開催アプリ
 ![session](https://github.com/nobou-g/study_app/blob/master/%E8%A1%A8%E7%B4%992.png)
-<img src="https://github.com/nobou-g/study_app/blob/master/gyazo1.jpg" width="500" height="300">  
+<img src="https://github.com/nobou-g/study_app/blob/master/gyazo1.jpg" width="500" height="300"> 
+
+# :ledger:開発環境
+・Ruby  
+・Rails  
+・Javascript  
+・jquery(Ajaxのため)
+・MySQL  
+・Payjp(クレジットカードのWebAPI)  
+・VSCode  
+<br><br>
 
 # :ledger:開発背景
 
@@ -15,16 +25,6 @@
 <blockquote> →改善点：  
   本アプリでは主催者が商品を出品でき、そしてクレジットカードでの購入機能が搭載されている。そのため主催者が勉強会以外にも教材を提供ができ、上記のチャット機能と併用することで、参加者と主催者、参加者と参加者でリアルタイムにやりとりができるため、教材だけを提供されるだけではない細かいケアをしてもらえるという、オンラインサロンに似た体系を望める。</blockquote>
 </blockquote>
-<br><br>
-
-# :ledger:開発環境
-・Ruby  
-・Rails  
-・Javascript  
-・jquery  
-・MySQL  
-・Payjp(クレジットカードのWebAPI)  
-・VSCode  
 <br><br>
 
 # :ledger:アプリ機能
