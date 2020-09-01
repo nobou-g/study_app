@@ -3,6 +3,7 @@
 <img src="https://github.com/nobou-g/study_app/blob/master/gyazo1.jpg" width="500" height="300">  
 
 # :ledger:開発背景
+友人が
 
 # :ledger:アプリ概要
 
