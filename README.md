@@ -73,14 +73,13 @@
 
 5.購入機能(+商品出品機能)  
 --------
-<strong><blockquote>•ユーザーはマイページから商品を出品することができる
-                    •出品された商品はマイページの下部に表示される
+<strong><blockquote>•ユーザーはマイページから商品を出品することができる<br>
+                    •出品中の商品はマイページの下部に表示される
 </blockquote></strong>
 <br><br>
 <img src="https://github.com/nobou-g/study_app/blob/master/mypage.gif" width="800" height="400">
 <br><br>
-<strong><blockquote>•各勉強会にはチャットスペースがあり、そこでホストまたは他の参加者と情報共有ができる<br>
-                    •ユーザーのメッセージは、Ajaxを用いて送信される
+<strong><blockquote>購入したい商品は、WebAPIの「Payjp」を用いて決済される
 </blockquote></strong>
 <br><br>
 <img src="https://github.com/nobou-g/study_app/blob/master/purchase.gif" width="800" height="400">  
