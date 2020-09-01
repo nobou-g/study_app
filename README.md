@@ -6,7 +6,7 @@
 ・Ruby  
 ・Rails  
 ・Javascript  
-・jquery(Ajaxのため)
+・jquery(Ajaxのため)  
 ・MySQL  
 ・Payjp(クレジットカードのWebAPI)  
 ・VSCode  
