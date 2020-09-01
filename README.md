@@ -1,5 +1,5 @@
 ### セミナー開催アプリ
-![session](https://github.com/nobou-g/study_app/blob/master/gyazo1.jpg)
+![session](https://github.com/nobou-g/study_app/blob/master/%E8%A1%A8%E7%B4%992.png)
 
 # :ledger:開発環境
 ・Ruby  
