@@ -63,7 +63,8 @@
 
 4.チャット機能  
 --------
-<strong><blockquote>各勉強会にはチャットスペースがあり、そこでホストまたは他の参加者と情報共有ができる<br>
+<strong><blockquote>•各勉強会にはチャットスペースがあり、そこでホストまたは他の参加者と情報共有ができる<br>
+                    •メッセージ送信は、Ajaxを用いて送信される
 </blockquote></strong>
 <br><br>
 <img src="https://github.com/nobou-g/study_app/blob/master/chat.gif" width="800" height="400">  
