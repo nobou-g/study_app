@@ -2,6 +2,10 @@
 ![session](https://github.com/nobou-g/study_app/blob/master/%E8%A1%A8%E7%B4%992.png)
 <img src="https://github.com/nobou-g/study_app/blob/master/gyazo1.jpg" width="500" height="300">  
 
+# :ledger開発背景
+
+# :ledgerアプリ概要
+
 # :ledger:開発環境
 ・Ruby  
 ・Rails  
@@ -38,6 +42,7 @@
 <img src="https://github.com/nobou-g/study_app/blob/master/mypage.gif" width="800" height="400">
 <img src="https://github.com/nobou-g/study_app/blob/master/purchase.gif" width="800" height="400">  
 
+# 苦労したポイント
 
 # DB設計
 
