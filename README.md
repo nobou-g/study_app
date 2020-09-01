@@ -36,6 +36,7 @@
 <br><br>
 <img src="https://github.com/nobou-g/study_app/blob/master/toppage2.gif" width="1000" height="600">  
 
+<br><br><br>
 
 2.勉強会の登録機能  
 --------
