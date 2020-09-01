@@ -39,8 +39,8 @@
 
 2.勉強会の登録機能  
 --------
-<blockquote>•テーマ、詳細内容、開催場所、開催日時などを登録して、勉強会を主催する<br>
-</blockquote>
+<strong><blockquote>テーマ、詳細内容、開催場所、開催日時などを登録して、勉強会を主催する<br>
+</blockquote></strong>
 <br><br>
 <img src="https://github.com/nobou-g/study_app/blob/master/post.gif" width="800" height="400">  
 <br><br>
@@ -48,7 +48,13 @@
 
 3.フォロー機能  
 --------
+<strong><blockquote>興味を持った勉強会ホストをフォローすることができる<br>
+</blockquote></strong>
+<br><br>
 <img src="https://github.com/nobou-g/study_app/blob/master/follow.gif" width="800" height="400">
+<strong><blockquote>フォローしているユーザーが開催する勉強会を「Timeline」で逐一確認ができる<br>
+</blockquote></strong>
+<br><br>
 <img src="https://github.com/nobou-g/study_app/blob/master/timeline.gif" width="800" height="400">  
 <br><br>
 
