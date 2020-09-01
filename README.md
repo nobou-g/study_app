@@ -11,7 +11,7 @@
 ・VSCode  
 
 # :ledger:アプリ機能
-<img src="https://github.com/nobou-g/study_app/blob/master/toppage.gif" width="800" height="500">
+<img src="https://github.com/nobou-g/study_app/blob/master/toppage.gif" width="800" height="400">
 
 # DB設計
 
