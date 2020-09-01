@@ -73,9 +73,9 @@
 
 5.購入機能(+商品出品機能)  
 --------
-<strong><blockquote>•ユーザーはマイページから商品を出品することができる<br>
-                    •出品中の商品はマイページの下部に表示される<br>
-                    (•マイページでは当該ユーザーの主催するイベントが確認できる)
+<strong><blockquote>• ユーザーはマイページから商品を出品することができる<br>
+                    • 出品中の商品はマイページの下部に表示される<br>
+                    • (マイページでは当該ユーザーの主催するイベントが確認できる)
 </blockquote></strong>
 <br><br>
 <img src="https://github.com/nobou-g/study_app/blob/master/mypage.gif" width="800" height="400">
