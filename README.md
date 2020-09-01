@@ -3,7 +3,7 @@
 <img src="https://github.com/nobou-g/study_app/blob/master/gyazo1.jpg" width="500" height="300">  
 
 # :ledger:開発背景
-友人が
+友人が勉強会を主催しており、[pando](https://pando.life/)や[ガクサー](https://gakucir.com/admins/login)といったWebサイトで募集をかけている。
 
 # :ledger:アプリ概要
 
