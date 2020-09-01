@@ -35,29 +35,32 @@
 </blockquote>
 <br><br>
 <img src="https://github.com/nobou-g/study_app/blob/master/toppage2.gif" width="1000" height="600">  
-
-<br><br><br>
+<br><br>
 
 2.勉強会の登録機能  
 --------
 <img src="https://github.com/nobou-g/study_app/blob/master/post.gif" width="800" height="400">  
+<br><br>
 
 
 3.フォロー機能  
 --------
 <img src="https://github.com/nobou-g/study_app/blob/master/follow.gif" width="800" height="400">
 <img src="https://github.com/nobou-g/study_app/blob/master/timeline.gif" width="800" height="400">  
+<br><br>
 
 
 4.チャット機能  
 --------
 <img src="https://github.com/nobou-g/study_app/blob/master/chat.gif" width="800" height="400">  
+<br><br>
 
 
 5.購入機能  
 --------
 <img src="https://github.com/nobou-g/study_app/blob/master/mypage.gif" width="800" height="400">
 <img src="https://github.com/nobou-g/study_app/blob/master/purchase.gif" width="800" height="400">  
+<br><br>
 
 # :ledger:苦労したポイント
 
