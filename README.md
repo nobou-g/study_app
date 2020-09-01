@@ -14,17 +14,17 @@
 トップページ
 --------
 <img src="https://github.com/nobou-g/study_app/blob/master/toppage2.gif" width="800" height="400">  
-投稿機能
+投稿機能  
 --------
 <img src="https://github.com/nobou-g/study_app/blob/master/post.gif" width="800" height="400">  
-フォロー機能
+フォロー機能  
 --------
 <img src="https://github.com/nobou-g/study_app/blob/master/follow.gif" width="800" height="400">
 <img src="https://github.com/nobou-g/study_app/blob/master/timeline.gif" width="800" height="400">  
-チャット機能
+チャット機能  
 --------
 <img src="https://github.com/nobou-g/study_app/blob/master/chat.gif" width="800" height="400">  
-購入機能
+購入機能  
 --------
 <img src="https://github.com/nobou-g/study_app/blob/master/mypage.gif" width="800" height="400">
 <img src="https://github.com/nobou-g/study_app/blob/master/purchase.gif" width="800" height="400">  
