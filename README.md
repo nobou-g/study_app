@@ -92,8 +92,9 @@
 <blockquote><strong>①カテゴリ機能+検索機能</strong><br>
 <blockquote>→ ユーザーが自分の興味ある分野の勉強会により手軽にたどり着けるようにするために必要な機能</blockquote>
 </blockquote>
+<br>
 <blockquote><strong>②クレジットカードの売上の細分化</strong><br>
-<blockquote> →　商品が購入された際に、テナント側（出品者）に入る売上と、プラットホーム側（本アプリ）に入る売上が振り分けられていない状況のため、より複雑なPayJPの扱いになると思うが、挑戦したい</blockquote>
+<blockquote> →　商品が購入された際に、テナント側（出品者）に入る売上と、プラットホーム側（本アプリ）に入る売上が振り分けられていない状況のため実装していきたい</blockquote>
 </blockquote>
 <br><br>
 
