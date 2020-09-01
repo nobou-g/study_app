@@ -16,6 +16,7 @@
 <img src="https://github.com/nobou-g/study_app/blob/master/follow.gif" width="800" height="400">
 <img src="https://github.com/nobou-g/study_app/blob/master/timeline.gif" width="800" height="400">
 <img src="https://github.com/nobou-g/study_app/blob/master/chat.gif" width="800" height="400">
+<img src="https://github.com/nobou-g/study_app/blob/master/mypage.gif" width="800" height="400">
 <img src="https://github.com/nobou-g/study_app/blob/master/purchase.gif" width="800" height="400">
 
 # DB設計
