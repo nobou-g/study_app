@@ -23,7 +23,7 @@
 ・Javascript  
 ・jquery  
 ・MySQL  
-・Payjp(クレジットカードのAPI)  
+・Payjp(クレジットカードのWebAPI)  
 ・VSCode  
 <br><br>
 
@@ -86,6 +86,8 @@
 <br><br>
 
 # :ledger:苦労したポイント
+
+# :ledger:今後実装したい機能
 
 # DB設計
 
