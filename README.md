@@ -71,12 +71,14 @@
 <br><br>
 
 
-5.購入機能  
+5.購入機能(+商品出品機能)  
 --------
-<strong><blockquote>•各ユーザーのマイページから
+<strong><blockquote>•ユーザーはマイページから商品を出品することができる
+                    •出品された商品はマイページの下部に表示される
 </blockquote></strong>
 <br><br>
 <img src="https://github.com/nobou-g/study_app/blob/master/mypage.gif" width="800" height="400">
+<br><br>
 <strong><blockquote>•各勉強会にはチャットスペースがあり、そこでホストまたは他の参加者と情報共有ができる<br>
                     •ユーザーのメッセージは、Ajaxを用いて送信される
 </blockquote></strong>
