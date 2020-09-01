@@ -79,7 +79,7 @@
 <br><br>
 <img src="https://github.com/nobou-g/study_app/blob/master/mypage.gif" width="800" height="400">
 <br><br>
-<strong><blockquote>購入したい商品は、WebAPIの「Payjp」を用いて決済される
+<strong><blockquote>購入したい商品は、WebAPIの「Payjp」を用いてクレジットカード決済ができる
 </blockquote></strong>
 <br><br>
 <img src="https://github.com/nobou-g/study_app/blob/master/purchase.gif" width="800" height="400">  
