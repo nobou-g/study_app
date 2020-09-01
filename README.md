@@ -31,8 +31,9 @@
 --------
 <blockquote>•「Session List」に逐一最新のイベントが先頭にリストアップされるため、ユーザーは興味を持った勉強会に参加可能<br><br>
             • サイドバーにチャット中の勉強会が表示されるため、ユーザーはすぐにレスポンスすることができる<br><br>
-            • 同じくサイドバーに主催している勉強会が表示されるようになっている<br><br><br>
+            • 同じくサイドバーに主催している勉強会が表示されるようになっている<br>
 </blockquote>
+<br><br>
 <img src="https://github.com/nobou-g/study_app/blob/master/toppage2.gif" width="1000" height="600">  
 
 
