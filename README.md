@@ -15,7 +15,7 @@
 <blockquote> →改善点：  
   本アプリでは主催者が商品を出品でき、そしてクレジットカードでの購入機能が搭載されている。そのため主催者が勉強会以外にも教材を提供ができ、上記のチャット機能と併用することで、参加者と主催者、参加者と参加者でリアルタイムにやりとりができるため、教材だけを提供されるだけではない細かいケアをしてもらえるという、オンラインサロンに似た体系を望める。</blockquote>
 </blockquote>
-
+<br><br>
 
 # :ledger:開発環境
 ・Ruby  
@@ -25,6 +25,7 @@
 ・MySQL  
 ・Payjp(クレジットカードのAPI)  
 ・VSCode  
+<br><br>
 
 # :ledger:アプリ機能
 1.トップページ
@@ -52,7 +53,8 @@
 </blockquote></strong>
 <br><br>
 <img src="https://github.com/nobou-g/study_app/blob/master/follow.gif" width="800" height="400">
-<strong><blockquote>フォローしているユーザーが開催する勉強会を「Timeline」で逐一確認ができる<br>
+<br><br>
+<strong><blockquote>フォローしているユーザーが開催する勉強会のみを「Timeline」で逐一確認ができる<br>
 </blockquote></strong>
 <br><br>
 <img src="https://github.com/nobou-g/study_app/blob/master/timeline.gif" width="800" height="400">  
