@@ -29,19 +29,17 @@
 # :ledger:アプリ機能
 1.トップページ
 --------
-•「Session List」に逐一最新のイベントが先頭にリストアップされるため、ユーザーは興味を持った勉強会に参加可能<br><br>
+<blockquote>•「Session List」に逐一最新のイベントが先頭にリストアップされるため、ユーザーは興味を持った勉強会に参加可能<br><br>
             • サイドバーにチャット中の勉強会が表示されるため、ユーザーはすぐにレスポンスすることができる<br><br>
             • 同じくサイドバーに主催している勉強会が表示されるようになっている<br>
-
+</blockquote>
 <br><br>
 <img src="https://github.com/nobou-g/study_app/blob/master/toppage2.gif" width="1000" height="600">  
 <br><br>
 
 2.勉強会の登録機能  
 --------
-<blockquote>•「Session List」に逐一最新のイベントが先頭にリストアップされるため、ユーザーは興味を持った勉強会に参加可能<br><br>
-            • サイドバーにチャット中の勉強会が表示されるため、ユーザーはすぐにレスポンスすることができる<br><br>
-            • 同じくサイドバーに主催している勉強会が表示されるようになっている<br>
+<blockquote>•テーマ、詳細内容、開催場所、開催日時などを登録して、勉強会を主催する<br>
 </blockquote>
 <br><br>
 <img src="https://github.com/nobou-g/study_app/blob/master/post.gif" width="800" height="400">  
