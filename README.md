@@ -86,8 +86,6 @@
 <img src="https://github.com/nobou-g/study_app/blob/master/purchase.gif" width="800" height="400">  
 <br><br>
 
-# :ledger:苦労したポイント
-
 # :ledger:今後実装したい機能
 <blockquote><strong>①カテゴリ機能+検索機能</strong><br>
 <blockquote>→ ユーザーが自分の興味ある分野の勉強会により手軽にたどり着けるようにするために必要な機能</blockquote>
