@@ -37,7 +37,7 @@
 <img src="https://github.com/nobou-g/study_app/blob/master/toppage2.gif" width="1000" height="600">  
 
 
-2.投稿機能  
+2.勉強会の登録機能  
 --------
 <img src="https://github.com/nobou-g/study_app/blob/master/post.gif" width="800" height="400">  
 
