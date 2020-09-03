@@ -4,4 +4,13 @@
 
 .edit_event{
   @include event_form;
+  .image{
+    height: 60px;
+    padding-bottom: 30px;
+    label{
+    }
+    img{
+      margin-left: 50px;
+    }
+  }
 }

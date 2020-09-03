@@ -20,6 +20,7 @@ class EventsController < ApplicationController
   end
 
   def edit
+    @event.image.cache! unless @event.image.blank?
   end
 
   def update
