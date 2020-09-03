@@ -1,1 +1,5 @@
-=render 'events/event_list', events: @following_events
+-if @following_events.present?
+  =render 'events/event_list', events: @following_events
+- else
+  %p.non-follower ＞ フォローしているユーザーがいません
+  

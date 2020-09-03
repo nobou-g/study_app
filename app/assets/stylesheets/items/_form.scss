@@ -4,4 +4,13 @@
 
 .edit_item{
   @include item_form;
+  .image{
+    height: 60px;
+    padding-bottom: 50px;
+    label{
+    }
+    img{
+      margin-left: 50px;
+    }
+  }
 }

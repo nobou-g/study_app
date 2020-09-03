@@ -99,3 +99,15 @@
 .new_relationship .edit_relationship{
   z-index: 3;
 }
+
+p.non-follower{
+  font-weight: bold;
+  font-size: 19px;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+p.non-follower:first-letter{
+  color: #FCC800;
+}
