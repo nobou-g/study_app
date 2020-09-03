@@ -1,0 +1,36 @@
+#new_user{
+  width: 550px;
+  margin: 0 auto;
+  margin-top: 50px;
+  .field{
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px solid;
+    label{
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 30px;
+    }
+    input{
+      width: 300px;
+      height: 25px;
+      margin: 0 0 0 50px;
+    }
+    em{
+      font-size: 12px;
+      line-height: 30px;
+    }
+  }
+  .actions{
+    input{
+    padding: 15px 50px;
+    background-color: #FCC800;
+    border: 1px solid #FCC800;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    margin: 30px 0 0 180px;
+    font-weight: bold;
+    }
+  }
+}
