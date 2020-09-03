@@ -20,3 +20,6 @@
     -if user_signed_in? && @item.user != current_user
       = form_tag(action: :pay, method: :post) do
         %script.payjp-button{:src => "https://checkout.pay.jp", :type => "text/javascript" ,"data-text" => "購入する" ,"data-key" => "pk_test_9803a05e60bf76b41efc634f"}
+-if user_signed_in? && @item.user == current_user
+  =link_to '編集する', edit_item_path(@item), class: 'edit-btn'
+  =link_to '削除する', item_path(@item), class: 'destroy-btn'

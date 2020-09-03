@@ -1,5 +1,5 @@
 class ItemsController < ApplicationController
-  before_action :set_params, only: [:show, :pay]
+  before_action :set_params, only: [:show, :edit, :destroy, :pay]
 
   def new
     @item= Item.new
@@ -13,6 +13,25 @@ class ItemsController < ApplicationController
   def show
   end
 
+  def edit
+  end
+
+  def update
+    if @item.update(item_params)
+      redirect_to @item
+    else
+      render :edit
+      alert('失敗しました')
+    end
+  end
+
+  def destroy
+    if @item.destroy
+      redirect_to root_path
+    else
+      render @item
+    end
+  end
   def pay
       Payjp.api_key = 'sk_test_6b4fc47bce523efc167dda60'
       charge = Payjp::Charge.create(

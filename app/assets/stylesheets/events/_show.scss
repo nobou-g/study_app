@@ -57,3 +57,27 @@
     }
   }
 }
+
+.edit-btn{
+  text-decoration: none;
+  color: white;
+  background-color: #ea352d;
+  height: 20px;
+  padding: 8px 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 5px;
+}
+
+.destroy-btn{
+  text-decoration: none;
+  color: white;
+  background-color: rgb(170, 170, 170);
+  padding: 8px 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  height: 20px;
+  margin: 5px;
+}

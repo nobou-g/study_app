@@ -1,0 +1,7 @@
+.new_event{
+  @include event_form;
+}
+
+.edit_event{
+  @include event_form;
+}

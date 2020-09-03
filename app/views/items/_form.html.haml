@@ -1,0 +1,18 @@
+= form_for item do |f|
+  .text_field.title
+    %label テーマ
+    =f.text_field :title
+  .text_field.discription
+    %label 詳細内容
+    =f.text_field :discription
+  .image 
+    %label 画像
+    = f.file_field :image
+  .text_field.price
+    %label 価格
+    =f.text_field :price, class: 'price'
+    %em 円
+  -if item.persisted?
+    = f.submit '編集する', class: 'form-btn'
+  -else
+    = f.submit '出品する', class: 'form-btn'

@@ -17,7 +17,9 @@
 
     }
     .right{
-
+      a{
+        color: rgb(168, 149, 149);
+      }
     }
   }
   .chat-main{
@@ -33,6 +35,10 @@
           font-weight: bold;
           font-size: 14px;
           line-height: 25px;
+          a{
+            text-decoration: none;
+            color: black;
+          }
         }
         .send_time{
           padding-left: 15px;

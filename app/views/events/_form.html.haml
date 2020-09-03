@@ -1,0 +1,20 @@
+= form_for event do |f|
+  .text_field.title
+    %label テーマ
+    =f.text_field :title
+  .text_field.discription
+    %label 詳細内容
+    =f.text_field :discription
+  .image 
+    %label 画像
+    = f.file_field :image
+  .text_field.place
+    %label 開催場所
+    =f.text_field :place
+  .text_field.date
+    %label 開催日
+    =f.text_field :date
+  - if event.persisted?
+    = f.submit '編集する', class: 'form-btn'
+  - else
+    = f.submit '投稿する', class: 'form-btn'

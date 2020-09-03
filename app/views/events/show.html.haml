@@ -22,3 +22,6 @@
       =link_to 'チャットする', event_messages_path(@event), class: 'chat_btn'
     - else
       =link_to 'チャットする', new_user_registration_path, class: 'chat_btn'
+-if user_signed_in? && @event.user == current_user
+  =link_to '編集する', edit_event_path(@event), class: 'edit-btn'
+  =link_to '削除する', event_path(@event), class: 'destroy-btn'

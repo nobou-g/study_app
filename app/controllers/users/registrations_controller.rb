@@ -16,6 +16,10 @@ class Users::RegistrationsController < Devise::RegistrationsController
     end
   end
 
+  def edit
+    @user= User.find(user_id: current_user.id)
+  end
+
  
   private
   def user_params

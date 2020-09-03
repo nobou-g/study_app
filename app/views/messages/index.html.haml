@@ -5,13 +5,13 @@
   %p.event_host
     %label.left 主催者 :
     %label.right
-      ="#{@event.user.nickname}"
+      =link_to "#{@event.user.nickname}", user_path(@event.user)
   .chat-main
     -@messages.each do |message|
       .message
         .message_top
           .user_name
-            ="#{message.user.nickname}"
+            =link_to "#{message.user.nickname}", user_path(message.user)
           - if @event.user == message.user
             .host_mark
               主催者
