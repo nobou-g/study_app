@@ -1,5 +1,5 @@
 class ItemsController < ApplicationController
-  before_action :set_params, only: [:show, :edit, :destroy, :pay]
+  before_action :set_params, only: [:show, :edit, :update, :destroy, :pay]
 
   def new
     @item= Item.new

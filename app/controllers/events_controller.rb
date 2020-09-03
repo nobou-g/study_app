@@ -1,5 +1,5 @@
 class EventsController < ApplicationController
-  before_action :set_params, only: [:show, :edit, :destroy]
+  before_action :set_params, only: [:show, :edit, :update, :destroy]
   
   def index
     events= Event.includes(:user)
