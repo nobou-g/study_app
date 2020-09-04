@@ -6,7 +6,7 @@
 https://gg-session-app.herokuapp.com/  <br><br>
 ログインID: test@t.t  <br><br>
 パスワード: testtest  <br><br>
-クレジットカードの番号: 4242424242424242(CVCや名前に関しては任意のもので構いません)
+クレジットカードの番号: 4242424242424242　(CVCや名前に関しては任意のもので構いません)
 <br><br>
 
 # :ledger:開発環境
