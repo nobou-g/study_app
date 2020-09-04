@@ -4,8 +4,8 @@
 
 # :ledger:本番環境
 https://gg-session-app.herokuapp.com/  
-ログインID: test@t.t  <br>
-パスワード: testtest  <br>
+ログインID: test@t.t  <br><br>
+パスワード: testtest  <br><br>
 クレジットカードの番号: 4242424242424242  
 <br><br>
 
