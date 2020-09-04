@@ -3,7 +3,7 @@
 <img src="https://github.com/nobou-g/study_app/blob/master/gyazo1.jpg" width="500" height="300"> 
 
 # :ledger:本番環境
-(https://gg-session-app.herokuapp.com/)  
+https://gg-session-app.herokuapp.com/  
 ログインID: test@t.t  
 パスワード: testtest
 
