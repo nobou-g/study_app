@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   root 'events#index'
   resources :events do
     collection do
-      get 'timeline' 
+      get 'timeline'
     end
 
     resources :messages, only: [:index, :create]

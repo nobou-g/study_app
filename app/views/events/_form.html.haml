@@ -10,7 +10,7 @@
     - if event.persisted?
       = image_tag event.image_url, size: "140x80"
     -else
-      = f.file_field :image_url
+      = f.file_field :image
   .text_field.place
     %label 開催場所
     =f.text_field :place
