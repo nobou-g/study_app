@@ -8,7 +8,7 @@
 ・Javascript  
 ・jquery(Ajaxのため)  
 ・Payjp(クレジットカードのWebAPI)  
-・Devise(ログイン機能)
+・Devise(ログイン機能)  
 ・MySQL  
 ・Heroku  
 ・VSCode  
