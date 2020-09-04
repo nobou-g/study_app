@@ -55,7 +55,7 @@ https://gg-session-app.herokuapp.com/
 <br><br>
 
 
-2.勉強会の登録機能  
+3.勉強会の登録機能  
 --------
 <strong><blockquote>テーマ、詳細内容、開催場所、開催日時などを登録して、勉強会を主催する<br>
 </blockquote></strong>
@@ -64,7 +64,7 @@ https://gg-session-app.herokuapp.com/
 <br><br>
 
 
-3.フォロー機能  
+4.フォロー機能  
 --------
 <strong><blockquote>興味を持った勉強会ホストをフォローすることができる<br>
 </blockquote></strong>
@@ -78,7 +78,7 @@ https://gg-session-app.herokuapp.com/
 <br><br>
 
 
-4.チャット機能  
+5.チャット機能  
 --------
 <strong><blockquote>• 各勉強会にはチャットスペースがあり、そこでホストまたは他の参加者と情報共有ができる<br>
                     • ユーザーのメッセージは、Ajaxを用いて送信される
@@ -88,7 +88,7 @@ https://gg-session-app.herokuapp.com/
 <br><br>
 
 
-5.購入機能(+商品出品機能)  
+6.購入機能(+商品出品機能)  
 --------
 <strong><blockquote>• ユーザーはマイページから商品を出品することができる<br>
                     • 出品中の商品はマイページの下部に表示される<br>
