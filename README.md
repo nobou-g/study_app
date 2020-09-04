@@ -7,8 +7,10 @@
 ・Rails  
 ・Javascript  
 ・jquery(Ajaxのため)  
-・MySQL  
 ・Payjp(クレジットカードのWebAPI)  
+・Devise(ログイン機能)
+・MySQL  
+・Heroku  
 ・VSCode  
 <br><br>
 
