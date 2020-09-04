@@ -5,7 +5,8 @@
 # :ledger:本番環境
 https://gg-session-app.herokuapp.com/  
 ログインID: test@t.t  
-パスワード: testtest
+パスワード: testtest  
+<br><br>
 
 # :ledger:開発環境
 ・Ruby  
