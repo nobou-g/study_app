@@ -2,6 +2,11 @@
 ![session](https://github.com/nobou-g/study_app/blob/master/%E8%A1%A8%E7%B4%992.png)
 <img src="https://github.com/nobou-g/study_app/blob/master/gyazo1.jpg" width="500" height="300"> 
 
+# :ledger:本番環境
+(https://gg-session-app.herokuapp.com/)  
+ログインID: test@t.t  
+パスワード: testtest
+
 # :ledger:開発環境
 ・Ruby  
 ・Rails  
