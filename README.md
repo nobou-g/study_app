@@ -46,6 +46,15 @@ https://gg-session-app.herokuapp.com/
 <img src="https://github.com/nobou-g/study_app/blob/master/toppage2.gif" width="1000" height="600">  
 <br><br>
 
+2.ユーザー新規登録(+ログイン機能)  
+--------
+<strong><blockquote>Deviseを用いたユーザー新規登録機能<br>
+</blockquote></strong>
+<br><br>
+<img src="https://github.com/nobou-g/study_app/blob/master/%E3%83%A6%E3%83%BC%E3%82%B5%E3%82%99%E3%83%BC%E6%96%B0%E8%A6%8F%E7%99%BB%E9%8C%B2.png" width="800" height="400">  
+<br><br>
+
+
 2.勉強会の登録機能  
 --------
 <strong><blockquote>テーマ、詳細内容、開催場所、開催日時などを登録して、勉強会を主催する<br>
