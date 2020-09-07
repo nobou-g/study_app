@@ -39,6 +39,7 @@ class ItemsController < ApplicationController
         card: params['payjp-token'],
         currency: 'jpy',
       )
+      alert('購入完了しました')
   end
 
   private
