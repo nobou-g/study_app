@@ -3,9 +3,10 @@
 <img src="https://github.com/nobou-g/study_app/blob/master/gyazo1.jpg" width="500" height="300"> 
 
 # :ledger:本番環境
-https://gg-session-app.herokuapp.com/  
-ログインID: test@t.t  
-パスワード: testtest  
+https://gg-session-app.herokuapp.com/  <br><br>
+ログインID: test@t.t  <br><br>
+パスワード: testtest  <br><br>
+クレジットカードの番号: 4242424242424242　(CVCや名前に関しては任意のもので構いません)
 <br><br>
 
 # :ledger:開発環境
