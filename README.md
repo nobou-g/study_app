@@ -25,12 +25,12 @@ TEST TARO
 ・Ruby  
 ・Rails  
 ・Javascript  
-・jquery(Ajaxのため)  
-・Payjp(クレジットカードのWebAPI)  
-・Devise(ログイン機能)  
+・jquery (Ajaxのため)  
+・Payjp (クレジットカードのWebAPI)  
+・Devise (ログイン機能)  
 ・MySQL  
 ・Heroku  
-・AWS(HerokuをS3に繋げて、画像保存)  
+・AWS (HerokuをS3に繋げて、画像保存)  
 ・VSCode  
 <br><br>
 
