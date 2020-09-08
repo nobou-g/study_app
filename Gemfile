@@ -60,6 +60,7 @@ end
 
 group :production do
   gem 'unicorn', '5.4.1'
+  gem 'fog-aws'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -72,3 +73,4 @@ gem 'pry-rails'
 gem 'carrierwave'
 gem 'jquery-rails'
 gem 'payjp'
+gem 'mini_magick'
