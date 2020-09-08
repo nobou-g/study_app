@@ -8,7 +8,16 @@ https://gg-session-app.herokuapp.com/  <br><br>
 パスワード: testtest  <br><br>
 クレジットカード情報  
 <blockquote><strong>カード番号：</strong>
-424242424242
+4242424242424242
+</blockquote>
+<blockquote><strong>有効期限：</strong>
+11/24
+</blockquote>
+<blockquote><strong>CVC番号：</strong>
+111
+</blockquote>
+<blockquote><strong>名前：</strong>
+TEST TARO
 </blockquote>
 <br><br>
 
