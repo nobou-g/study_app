@@ -141,10 +141,14 @@ TEST TARO
 
 - has_many :messages
 - has_many :events
-- has_many :relationships
-- has_many :followings, through: :relationships, source: :follow
-- has_many :reverse_of_relationship, class_name: 'Relationship', foreign_key: follow_id
-- has_many :followers, through: :reverse_of_relationship, source: :user
+- has_many :active_relationships,         class_name: 'Relationship',
+            foreign_key: 'user_id',
+              dependent: :destroy
+- has_many :followings, through: :active_relationships, source: :follow
+- has_many :passive_relationships, class_name: 'Relationship',
+              foreign_key: 'follow_id',
+              dependent: :destroy
+- has_many :followers, through: :passive_relationships, source: :user
 
 ## Eventsテーブル
 
@@ -152,7 +156,7 @@ TEST TARO
 |------|----|-------|
 |title|string|null:false|
 |discription|text|null:false|
-|image|binary||
+|image|binary|null:false|
 |place|string|null:false|
 |date|string|null:false|
 |user_id|reference|foreign_key:true|
@@ -169,6 +173,7 @@ TEST TARO
 
 ### Association
 - belong_to :user
+- belongs_to :follow, class_name: 'User'
 
 ## Messagesテーブル
 
@@ -181,3 +186,16 @@ TEST TARO
 ### Association
 - belongs_to :user
 - belongs_to :event
+
+## Itemsテーブル
+
+|Column|Type|Options|
+|------|----|-------|
+|title|string|null:false|
+|discription|text|null:false|
+|price|string|null:false|
+|image|binary|null:false|
+|user_id|reference|foreign_key:true|
+
+### Associations
+- belongs_to :user
