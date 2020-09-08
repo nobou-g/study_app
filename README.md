@@ -123,7 +123,7 @@ TEST TARO
 </blockquote>
 <br>
 <blockquote><strong>②クレジットカードの売上の細分化</strong><br>
-<blockquote> →　商品が購入された際に、テナント側（出品者）に入る売上と、プラットホーム側（本アプリ）に入る売上が振り分けられていない状況のため実装していきたい</blockquote>
+<blockquote> → 商品が購入された際に、テナント側（出品者）に入る売上と、プラットホーム側（本アプリ）に入る売上が振り分けられていない状況のため実装していきたい</blockquote>
 </blockquote>
 <br><br>
 
