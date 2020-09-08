@@ -32,6 +32,7 @@ class ItemsController < ApplicationController
       render @item
     end
   end
+
   def pay
       Payjp.api_key = 'sk_test_6b4fc47bce523efc167dda60'
       charge = Payjp::Charge.create(
@@ -39,6 +40,7 @@ class ItemsController < ApplicationController
         card: params['payjp-token'],
         currency: 'jpy',
       )
+      redirect_to @item, alert: '購入完了しました'
   end
 
   private

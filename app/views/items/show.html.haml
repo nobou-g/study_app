@@ -1,4 +1,7 @@
 .show_item_wrapper
+  -if flash[:alert]
+    .alert
+      = flash[:alert]
   .show_item
     =image_tag @item.image_url, size: "200x300", class: 'item_image'
     %p.item_discription
