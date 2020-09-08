@@ -30,7 +30,7 @@ TEST TARO
 ・Devise (ログイン機能)  
 ・MySQL  
 ・Heroku  
-・AWS (HerokuとS3を繋げて、画像保存)  
+・AWS (HerokuとS3を繋げて、画像をバケット保管)  
 ・VSCode  
 <br><br>
 
