@@ -17,7 +17,7 @@ https://gg-session-app.herokuapp.com/  <br><br>
 111
 </blockquote>
 <blockquote><strong>名前：</strong>
-TEST TARO
+TEST TEST
 </blockquote>
 <br><br>
 
