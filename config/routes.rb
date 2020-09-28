@@ -10,7 +10,7 @@ Rails.application.routes.draw do
       get 'timeline'
     end
 
-    resources :messages, only: [:index, :create]
+    resources :messages, only: [:index, :create, :destroy]
   end
   resources :users, only: [:show]
   resources :relationships
