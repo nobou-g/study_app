@@ -43,10 +43,10 @@ class EventsController < ApplicationController
   end
 
   def timeline
-    followings= current_user.followings
+    followings = current_user.followings
     following_events= []
     followings.each do |following|
-      events =following.events
+      events = following.events
       events.each do |event|
         following_events << event
       end
